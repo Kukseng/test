@@ -9,19 +9,23 @@ import React from "react";
 import { NavbarComponent } from "@/components/(landing)/nav/NavbarComponent";
 
 export const metadata: Metadata = {
- 
+  // title: "Car Selling",
+  // description: "This is homepage of car selling",
+  // keywords:['car','discount','modern','luxeries','expensive'],
+  // authors:[{'name':'FullStack Students'}],
+  // applicationName:'Car Selling',
    title:{
-      template:'Car Selling',
+      template:'%s | Car Selling',
       default: "HomePage"
    },
   openGraph:{
     title:'Car Shop',
-    description:'Car Offroad',
+    description:'This is homepage of car ',
     images:[
      {
       url:'https://i.pinimg.com/736x/63/94/8a/63948a936864cf4654fbeb76de81c6e7.jpg',
       width: 800,
-      height: 650,
+      height: 600,
       alt: "Car",
       type: 'image/png'
      }
